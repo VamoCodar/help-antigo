@@ -1,0 +1,131 @@
+.s-tittle h1 {
+  color: #ea8d03;
+}
+.header-menu ul li:nth-child(3) :hover {
+  color: black;
+}
+.header-menu ul li:nth-child(1) :hover {
+  color: white;
+}
+.s-tittle h1:after,
+.s-tittle h1:before {
+  background: #ea8d03;
+}
+
+.header-menu ul li a.menu-ativo {
+  color: #ea8d03;
+}
+
+.dados {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mapa {
+  padding-left: 40px;
+}
+.mapa img {
+  max-width: 400px;
+  min-width: 60px;
+}
+.mapa h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ea8d03;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.papel h2:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #ea8d03;
+  border-radius: 50%;
+  border: 2px solid #0e1013;
+  margin-right: 6px;
+  margin-bottom: 2px;
+}
+.papel h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ea8d03;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.papel {
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+}
+.papel li:before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #ea8d03;
+  border-radius: 50%;
+  border: 2px solid #0e1013;
+  margin-right: 6px;
+  margin-bottom: 2px;
+}
+.papel li {
+  margin-left: 10px;
+}
+.pi {
+  margin-bottom: -80px;
+}
+
+.ee h3:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #ea8d03;
+  border-radius: 50%;
+  border: 2px solid #0e1013;
+  margin: 1px 6px;
+}
+
+.ee h3 {
+  color: #ea8d03;
+}
+.mapa h3::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #ea8d03;
+  border-radius: 50%;
+  border: 2px solid #0e1013;
+  margin: 1px 6px;
+}
+@media (max-width: 966px) {
+  .dados {
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+  .mapa {
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .s-tittle-c h1 {
+    font-size: 18px;
+    top: 5%;
+  }
+  .ee ul {
+    padding-left: 10px;
+  }
+  .papel {
+    padding-left: 10px;
+  }
+  .dados {
+    padding-left: 10px;
+    justify-content: flex-start;
+  }
+  .dados ul li {
+    font-size: 14px;
+  }
+}

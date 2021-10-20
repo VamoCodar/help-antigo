@@ -1,0 +1,36 @@
+.header-menu ul li a.menu-ativo {
+  color: #00ca43;
+}
+
+.s-tittle-s h1 {
+  color: #00ca43;
+}
+
+.s-tittle h1:after,
+.s-tittle h1:before {
+  background: #00ca43;
+}
+.servv img {
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+.servv img {
+  margin: 0 auto;
+}
+.servv ul li {
+  max-width: 400px;
+  padding: 20px 0 0 20px;
+  line-height: 20px;
+}
+.servv li::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #00ca43;
+  border-radius: 50%;
+  border: 2px solid #0e1013;
+  margin-right: 6px;
+  margin-bottom: 2px;
+}
